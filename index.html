@@ -29,6 +29,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+   <!-- kakao channel add  -->
+   <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+
   <!-- =======================================================
   * Template Name: NewBiz - v4.0.1
   * Template URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
@@ -99,6 +102,22 @@
           <a href="#services" class="btn-services scrollto">Our Services</a>
         </div>
       </div>
+<!-- ======= kakao channel add  ======= -->
+
+<div id="kakao-talk-channel-add-button"></div>
+<script type="text/javascript">
+  // 사용할 앱의 JavaScript 키를 설정해 주세요.
+  Kakao.init('c089c8172def97eb00c07217cae17495');
+  // 채널 추가하기 버튼을 생성합니다.
+  Kakao.Channel.createAddChannelButton({
+    container: '#kakao-talk-channel-add-button',
+    channelPublicId: '_rxlnqs',
+    size: 'large',
+    supportMultipleDensities: true,
+  });
+</script>
+
+<!-- ======= kakao channel add end  ======= -->
 
     </div>
   </section><!-- End Hero Section -->
@@ -161,12 +180,10 @@
             </p>
           </div>
         </div>
-
         <div class="row about-extra">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
             <img src="assets/img/about-extra-2.svg" class="img-fluid" alt="">
           </div>
-
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right">
             <h4>Neque saepe temporibus repellat ea ipsum et. Id vel et quia tempora facere reprehenderit.</h4>
             <p>
@@ -255,9 +272,7 @@
           <h3>Why choose us?</h3>
           <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
         </header>
-
         <div class="row row-eq-height justify-content-center">
-
           <div class="col-lg-4 mb-4">
             <div class="card" data-aos="zoom-in" data-aos-delay="100">
               <i class="bi bi-calendar4-week"></i>
@@ -268,7 +283,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 mb-4">
             <div class="card" data-aos="zoom-in" data-aos-delay="200">
               <i class="bi bi-camera-reels"></i>
@@ -279,7 +293,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 mb-4">
             <div class="card" data-aos="zoom-in" data-aos-delay="300">
               <i class="bi bi-chat-square-text"></i>
@@ -290,33 +303,25 @@
               </div>
             </div>
           </div>
-
         </div>
-
         <div class="row counters" data-aos="fade-up" data-aos-delay="100">
-
           <div class="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
             <p>Clients</p>
           </div>
-
           <div class="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1" class="purecounter"></span>
             <p>Projects</p>
           </div>
-
           <div class="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="1364" data-purecounter-duration="1" class="purecounter"></span>
             <p>Hours Of Support</p>
           </div>
-
           <div class="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
             <p>Hard Workers</p>
           </div>
-
         </div>
-
       </div>
     </section> -->
 	<!-- End Why Us Section -->
@@ -324,11 +329,9 @@
     <!-- ======= Portfolio Section ======= 
     <section id="portfolio" class="clearfix">
       <div class="container" data-aos="fade-up">
-
         <header class="section-header">
           <h3 class="section-title">Our Portfolio</h3>
         </header>
-
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
@@ -339,9 +342,7 @@
             </ul>
           </div>
         </div>
-
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
@@ -355,7 +356,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
@@ -369,7 +369,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
@@ -383,7 +382,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/card2.jpg" class="img-fluid" alt="">
@@ -397,7 +395,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
@@ -411,7 +408,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/app3.jpg" class="img-fluid" alt="">
@@ -425,7 +421,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
@@ -439,7 +434,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
@@ -453,7 +447,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
@@ -467,9 +460,7 @@
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
     </section>-->
 	<!-- End Portfolio Section -->
@@ -477,17 +468,13 @@
     <!-- ======= Testimonials Section ======= 
     <section id="testimonials" class="section-bg">
       <div class="container" data-aso="zoom-in">
-
         <header class="section-header">
           <h3>Testimonials</h3>
         </header>
-
         <div class="row justify-content-center">
           <div class="col-lg-8">
-
             <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
               <div class="swiper-wrapper">
-
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <img src="assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
@@ -558,9 +545,7 @@
           <h3>Team</h3>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
-
         <div class="row">
-
           <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="100">
             <div class="member">
               <img src="assets/img/team-1.jpg" class="img-fluid" alt="">
@@ -578,7 +563,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="200">
             <div class="member">
               <img src="assets/img/team-2.jpg" class="img-fluid" alt="">
@@ -596,7 +580,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="300">
             <div class="member">
               <img src="assets/img/team-3.jpg" class="img-fluid" alt="">
@@ -614,7 +597,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="400">
             <div class="member">
               <img src="assets/img/team-4.jpg" class="img-fluid" alt="">
@@ -632,95 +614,75 @@
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
     </section> --> <!-- End Team Section -->
 
     <!-- ======= Clients Section =======
     <section id="clients" class="section-bg">
-
       <div class="container" data-aos="fade-up">
-
         <div class="section-header">
           <h3>Our CLients</h3>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</p>
         </div>
-
         <div class="row g-0 clients-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
-
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
               <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
               <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
               <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
               <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
               <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
               <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
               <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
               <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
             </div>
           </div>
-
         </div>
-
       </div>
-
     </section>  --> <!-- End Clients Section -->
 
     <!-- ======= Contact Section ======= -->
 	<!--
     <section id="contact">
       <div class="container-fluid" data-aos="fade-up">
-
         <div class="section-header">
           <h3>Contact Us</h3>
         </div>
-
         <div class="row">
-
           <div class="col-lg-6">
             <div class="map mb-4 mb-lg-0">
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 340px;" allowfullscreen></iframe>
             </div>
           </div>
-
           <div class="col-lg-6">
             <div class="row">
               <div class="col-md-5 info">
@@ -736,7 +698,6 @@
                 <p>+1 5589 55488 55</p>
               </div>
             </div>
-
             <div class="form">
               <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                 <div class="row">
@@ -762,9 +723,7 @@
               </form>
             </div>
           </div>
-
         </div>
-
       </div>
     </section> --><!-- End Contact Section -->
 
@@ -796,19 +755,37 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
+                <!--
               [13487] 경기도 성남시 분당구 대왕판교로 <br>
               645번길 (삼평동 629)<br>
               Aipeoples 빌딩 <br>
+              -->
+              
               <strong>Phone:</strong> +18 031 723 3089<br>
               <strong>Email:</strong> ceo@aipeoples.com<br>
             </p>
-
+<!--
             <div class="social-links">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
               <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
               <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
+-->
+
+            <!-- kakao channel add -->
+            <div id="kakao-talk-channel-add-button1"></div>
+                <script type="text/javascript">
+
+                // 채널 추가하기 버튼을 생성합니다.
+                Kakao.Channel.createAddChannelButton({
+                container: '#kakao-talk-channel-add-button1',
+                channelPublicId: '_rxlnqs',
+                size: 'large',
+                supportMultipleDensities: true,
+                });
+                </script>
+            <!-- kakao channel add  end -->
 
           </div>
 
